@@ -27,14 +27,8 @@ private Background bg;
 		
 		try {
 			
-			bg = new Background("/Backgrounds/backgroundmenu.png", 1);
+			bg = new Background("/Backgrounds/backgroundmenu.jpg", 1);
 			
-			
-			titleColor = new Color(128, 0, 0);
-			titleFont = new Font(    
-					"Century Gothic",
-					Font.PLAIN,
-					100);   
 			
 			font = new Font("Arial", Font.PLAIN, 50);    // menu font
 			
@@ -56,10 +50,7 @@ private Background bg;
 		// draw bg
 		bg.draw(g);
 		
-		// draw title
-		g.setColor(titleColor);
-		g.setFont(titleFont);
-		g.drawString("SD Warrior", 180, 200);
+		
 		
 		// draw menu options
 		g.setFont(font);
